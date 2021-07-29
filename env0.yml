@@ -4,4 +4,4 @@ deploy:
   steps:
     terraformInit:
       before:
-        - mv stage.tfvars stage.auto.tfvars
+        - cp stage.tfvars stage.auto.tfvars
